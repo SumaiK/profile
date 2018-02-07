@@ -10,15 +10,26 @@ h1, h2, h3 {
   font-family: Raleway, Helvetica, sans-serif;
 }
 
-.images {
-  width: 400px;
-  height: 300px;
+#sidebar {
+  position: fixed;
+  background-color: rgb(150, 150, 150);
+  padding: 15px;
+  width: 40px;
+  font-size: 40px;
+  display: inline-block;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#page-content{
+  margin-left: 100px;
 }
 
 .profile-beige {
   border: 10px;
   background-color: #FFEDDF;
-  padding: 20px 4px 6px 10px;
+  padding: 20px 10px 6px 10px;
   margin: 15px 15px;
   border-radius: 15px;
   text-align: center;
@@ -38,13 +49,20 @@ h1, h2, h3 {
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 0px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
 }
 
 .list-inline li {
   padding: 50px;
   display: inline;
+}
+
+.images {
+  width: 200px;
+  height: 200px;
 }
 
 .favourite-shape {
